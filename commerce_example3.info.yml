@@ -1,0 +1,9 @@
+name: Commerce Example 3
+description: 'Commerce Example 3: adding a custom Ajax command when product attributes are adjusted.'
+package: Commerce Examples
+
+type: module
+core: 8.x
+
+dependencies:
+  - commerce:commerce_product

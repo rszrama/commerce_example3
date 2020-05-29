@@ -1,0 +1,5 @@
+services:
+  commerce_example3.commerce_event_subscriber:
+    class: Drupal\commerce_example3\EventSubscriber\CommerceEventSubscriber
+    tags:
+      - { name: event_subscriber }
